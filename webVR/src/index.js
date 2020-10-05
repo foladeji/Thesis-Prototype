@@ -2,7 +2,7 @@
 
 let renderer, scene, camera, controls;
 
-init();
+
 
 
 
