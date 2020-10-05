@@ -1,6 +1,6 @@
 @font-face {
   font-family: "nexa";
-  src: url("/fonts/nexa/web/NexaDemo-Bold.woff") format ("woff");
+  src: url("../fonts/nexa/web/NexaDemo-Bold.woff") format ("woff");
     font-weight: bold;
 }
 
