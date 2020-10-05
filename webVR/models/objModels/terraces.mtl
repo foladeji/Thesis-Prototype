@@ -1,0 +1,19 @@
+# Rhino
+newmtl /Wood_Planks_B01_100cm
+Ka 0.0000 0.0000 0.0000
+Kd 0.5176 0.5176 0.5176
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 255.0000
+map_Kd Wood_Planks_B_Diff0.jpg
+map_Bump Wood_Planks_B_Bump.jpg
+newmtl wood panel
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.6745 0.5216 0.2510
+d 1.0000
+Ns 0.0000
+map_Kd wood panel_250_DB.jpg
+map_Bump wood panel_250_DB.jpg

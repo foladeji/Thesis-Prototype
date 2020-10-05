@@ -1,0 +1,18 @@
+# Rhino
+newmtl /Granite_B_80cm
+Ka 0.0000 0.0000 0.0000
+Kd 0.5020 0.5020 0.5020
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 255.0000
+map_Kd Granite_B_Diff.jpg
+map_Bump Granite_Bump.jpg
+newmtl Porcelain
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.4118 0.4118 0.4118
+d 1.0000
+Ns 204.0000
+map_Kd Porcelain_200_F80.jpg
