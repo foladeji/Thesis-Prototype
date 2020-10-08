@@ -1,7 +1,7 @@
 @font-face {
   font-family: "nexa";
   src: url("../fonts/nexa/web/NexaDemo-Bold.woff") format ("woff");
-    font-weight: bold;
+  font-weight: bold;
 }
 
 
@@ -42,7 +42,6 @@ H3{
 
 
 .background-image2{
-    
     background-image: url(/img/backgroundImages/webVR.jpg); 
     width:1000px; 
     height: 500px; 

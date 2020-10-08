@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'RNS Sanz';
+    src: url('RNSSanz-Bold.eot');
+    src: local('RNS Sanz Bold'), local('RNSSanz-Bold'),
+        url('RNSSanz-Bold.eot?#iefix') format('embedded-opentype'),
+        url('RNSSanz-Bold.woff2') format('woff2'),
+        url('RNSSanz-Bold.woff') format('woff'),
+        url('RNSSanz-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RNS Sanz';
+    src: url('RNSSanz-ExtraBold.eot');
+    src: local('RNS Sanz ExtraBold'), local('RNSSanz-ExtraBold'),
+        url('RNSSanz-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('RNSSanz-ExtraBold.woff2') format('woff2'),
+        url('RNSSanz-ExtraBold.woff') format('woff'),
+        url('RNSSanz-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RNS Sanz';
+    src: url('RNSSanz-Black.eot');
+    src: local('RNS Sanz Black'), local('RNSSanz-Black'),
+        url('RNSSanz-Black.eot?#iefix') format('embedded-opentype'),
+        url('RNSSanz-Black.woff2') format('woff2'),
+        url('RNSSanz-Black.woff') format('woff'),
+        url('RNSSanz-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RNS Sanz';
+    src: url('RNSSanz-SemiBold.eot');
+    src: local('RNS Sanz SemiBold'), local('RNSSanz-SemiBold'),
+        url('RNSSanz-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('RNSSanz-SemiBold.woff2') format('woff2'),
+        url('RNSSanz-SemiBold.woff') format('woff'),
+        url('RNSSanz-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RNS Sanz';
+    src: url('RNSSanz-Light.eot');
+    src: local('RNS Sanz Light'), local('RNSSanz-Light'),
+        url('RNSSanz-Light.eot?#iefix') format('embedded-opentype'),
+        url('RNSSanz-Light.woff2') format('woff2'),
+        url('RNSSanz-Light.woff') format('woff'),
+        url('RNSSanz-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RNS Sanz Normal';
+    src: url('RNSSanz-Normal.eot');
+    src: local('RNS Sanz Normal'), local('RNSSanz-Normal'),
+        url('RNSSanz-Normal.eot?#iefix') format('embedded-opentype'),
+        url('RNSSanz-Normal.woff2') format('woff2'),
+        url('RNSSanz-Normal.woff') format('woff'),
+        url('RNSSanz-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RNS Sanz';
+    src: url('RNSSanz-Medium.eot');
+    src: local('RNS Sanz Medium'), local('RNSSanz-Medium'),
+        url('RNSSanz-Medium.eot?#iefix') format('embedded-opentype'),
+        url('RNSSanz-Medium.woff2') format('woff2'),
+        url('RNSSanz-Medium.woff') format('woff'),
+        url('RNSSanz-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
