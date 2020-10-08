@@ -77,12 +77,21 @@ H1.title {
 
 .vid1{
     width:900px;
-    margin-bottom: 200px;
+   
+}
+
+.vid-label{
+    font-size: 12px;
+    font-family:'Montserrat'; 
+    margin-top: 15px;
+    font-weight: 800;
+    color:#333333;
+    text-align: right;
 }
 
 .vid2{
     height:600px;
-    margin-bottom: 200px;
+
 }
 
 
