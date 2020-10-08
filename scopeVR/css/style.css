@@ -84,13 +84,14 @@ H1.title {
     font-size: 12px;
     font-family:'Montserrat'; 
     margin-top: 15px;
+    margin-bottom: 100px;
     font-weight: 800;
     color:#333333;
     text-align: right;
 }
 
 .vid2{
-    height:600px;
+    width:900px;
 
 }
 
