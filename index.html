@@ -9,7 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/style.css">
+    <!--    <link rel="stylesheet" href="/style.css">-->
 </head>
 
 <body>
@@ -20,42 +20,64 @@
     <div class="container">
 
         <!-- Start ROW 1 -->
-        
-        <div class="row1">
+
+        <div class="row1" style="padding-left: 50px">
             <div class="col-md-6" style="padding: 0px">
-                <div class="top-line"></div>
-                <H1 style="letter-spacing: 1px; font-size:70px;font-weight:800;">FAITHFUL OLADEJI</H1>
-                
-                <H3 style=""> Experience Design Prototypes </H3>
-                
+                <div class="top-line" style="position: static; 
+    border-bottom: 2.5px solid #000; 
+    height: 200px; 
+    width: 50px"></div>
+                <H1 style="letter-spacing: 1px; font-size:70px;font-weight:800;font-family: 'nexa';
+    line-height: 0.9;
+    margin-top: 30px;
+    margin-bottom:10px">FAITHFUL OLADEJI</H1>
+
+                <H3 style="font-family:'nexa'; 
+    font-size:18px; margin-bottom:150px; 
+    font-weight: 300"> Experience Design Prototypes </H3>
+
             </div>
         </div>
-        
-  
+
+
 
         <div class="row justify-content-center">
-            
-            <!-- VR Prototype 1 -->
-            
-            <div class="background-image1">
-                <div class="project-number-holder" style="position: relative; left: auto; top: 0%; right:0%; left:75%; bottom: auto; display: flex; margin-top:-60px; margin-right:40px">
-                <div class="project-number" style="font-family: 'Poppins', sans-serif; font-size: 100px; line-height: 120px; font-weight: 300; display: block; padding-right: 20px">01</div>
-                    <a href= "../scopeVR/index.html" class="project-type" style="font-family:'Nunito Sans';display:inline-block; margin-top: 20px; margin-right: 4px; font-weight: 700; letter-spacing: 1px; font-size: 16px; color: red">ScopeVR</a>
-                </div>
-            </div>
-            
-            <!-- VR Prototype 2 -->
-            
-            <div class="background-image2">
-                <div class="project-number-holder" style="position: relative; left: auto; top: 0%; right:0%; left:75%; bottom: auto; display: flex; margin-top:-60px; margin-right:40px">
-                <div class="project-number" style="font-family:'Poppins', sans-serif; font-size: 100px; line-height: 120px; font-weight: 300; display: block; padding-right: 20px">02</div>
-                    <a href= "../webVR/index.html" class="project-type" style="font-family:'Nunito Sans';display:inline-block; margin-top: 20px; margin-right: 4px; font-weight: 700; letter-spacing: 1px; font-size: 16px; color: red">WebVR</a>
-                </div>
-            </div>
-            
-            
-        </div>    
-    </div> 
-</body>
 
-</html>
+            <!-- VR Prototype 1 -->
+
+            <div class="background-image1" style="width: 1000px;
+    height: 500px;
+    background-image: url(/img/backgroundImages/scopeVR.png);
+    background-size: 100%;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    border-radius: 5px;
+    margin-bottom: 200px; 
+    box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.4)">
+                <div class="project-number-holder" style="position: relative; left: auto; top: 0%; right:0%; left:75%; bottom: auto; display: flex; margin-top:-60px; margin-right:40px">
+                    <div class="project-number" style="font-family: 'Poppins', sans-serif; font-size: 100px; line-height: 120px; font-weight: 300; display: block; padding-right: 20px">01</div>
+                    <a href="../scopeVR/index.html" class="project-type" style="font-family:'Nunito Sans';display:inline-block; margin-top: 20px; margin-right: 4px; font-weight: 700; letter-spacing: 1px; font-size: 16px; color: red">ScopeVR</a>
+                </div>
+            </div>
+
+            <!-- VR Prototype 2 -->
+
+            <div class="background-image2" style="background-image: url(/img/backgroundImages/webVR.jpg); 
+    width:1000px; 
+    height: 500px; 
+    background-size: 80%; 
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    border-radius: 5px; 
+    margin-bottom: 200px; 
+    box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.4);">
+                <div class="project-number-holder" style="position: relative; left: auto; top: 0%; right:0%; left:75%; bottom: auto; display: flex; margin-top:-60px; margin-right:40px">
+                    <div class="project-number" style="font-family:'Poppins', sans-serif; font-size: 100px; line-height: 120px; font-weight: 300; display: block; padding-right: 20px">02</div>
+                    <a href="../webVR/index.html" class="project-type" style="font-family:'Nunito Sans';display:inline-block; margin-top: 20px; margin-right: 4px; font-weight: 700; letter-spacing: 1px; font-size: 16px; color: red">WebVR</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body></html>
