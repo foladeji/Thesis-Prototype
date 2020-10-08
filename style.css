@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "nexa";
+  src: url("../fonts/nexa/web/NexaDemo-Bold.woff") format ("woff");
+  font-weight: bold;
+}
+
+
+H1 {
+    font-family: 'nexa';
+    line-height: 0.9;
+    margin-top: 30px;
+    margin-bottom:10px;
+}
+
+
+.top-line {
+    position: static; 
+    border-bottom: 2.5px solid #000; 
+    height: 200px; 
+    width: 50px
+        
+}
+
+H3{
+    font-family:'nexa'; 
+    font-size:18px; margin-bottom:150px; 
+    font-weight: 300
+}
+
+
+.background-image1{
+    width: 1000px;
+    height: 500px;
+    background-image: url(/img/backgroundImages/scopeVR.png);
+    background-size: 100%;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    border-radius: 5px;
+    margin-bottom: 200px; 
+    box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.4)
+}
+
+
+.background-image2{
+    background-image: url(/img/backgroundImages/webVR.jpg); 
+    width:1000px; 
+    height: 500px; 
+    background-size: 80%; 
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    border-radius: 5px; 
+    margin-bottom: 200px; 
+    box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.4);
+}
+
+.row1{
+   padding-left: 50px; 
+}
+
+
